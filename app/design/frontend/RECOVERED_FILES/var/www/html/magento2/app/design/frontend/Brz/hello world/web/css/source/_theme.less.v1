@@ -1,0 +1,13 @@
+module.exports = {
+    ...
+    hello world: {
+        area: 'frontend',
+        name: 'Brz/helloworld',
+        locale: 'en_US',
+        files: [
+            'css/styles-m', //path to root source file
+            'css/styles-1'
+        ],
+        dsl: 'less'
+
+    },
