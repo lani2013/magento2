@@ -41,7 +41,18 @@ module.exports = {
         ],
         dsl: 'less'
     },
-    backend: {
+    lumachild: {
+       area: 'frontend',
+       name: 'Dckap/lumachild',
+       locale: 'en_US',
+       files: [
+           'css/styles-m',
+           'css/styles-l',
+            
+     ],
+      dsl: 'less'
+    },
+      backend: {
         area: 'adminhtml',
         name: 'Magento/backend',
         locale: 'en_US',

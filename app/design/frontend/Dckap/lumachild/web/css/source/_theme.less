@@ -1,0 +1,52 @@
+//  Color nesting
+@page__background-color: #E9E7E1;
+@sidebar__background-color: @color-gray40;
+@primary__color: @color-gray80;
+@border-color__base: @color-gray76;
+
+@link__color: @color-gray56;
+@link__hover__color: #6cb7e2;
+
+//  Buttons
+@button__color: @color-gray20;
+@button__background: @color-gray80;
+@button__border: 1px solid @border-color__base;
+
+//  Primary button
+@button-primary__background:#5e8c27;
+@button-primary__border: 1px solid @color-orange-red2;
+@button-primary__color: @color-white;
+@button-primary__hover__background: darken(@color-orange-red1, 5%);
+@button-primary__hover__border: 1px solid @color-orange-red2;
+@button-primary__hover__color: @color-white;
+
+//  Navigation
+@navigation-level0-item__color: @color-gray80;
+@submenu-item__color: @color-gray80;
+
+@navigation__background: @color-gray40;
+@navigation-desktop-level0-item__color: @color-gray80;
+@navigation-desktop-level0-item__hover__color: @color-gray34;
+@navigation-desktop-level0-item__active__color: @navigation-desktop-level0-item__color;
+
+//  Tabs
+@tab-control__background-color: @page__background-color;
+
+//  Forms
+@form-element-input__background: @color-gray89;
+@form-element-input-placeholder__color: @color-gray60;
+
+//  Header icons
+@header-icons-color: @color-gray89;
+@header-icons-color-hover: @color-gray60;
+//body{color:@color-black;}
+//.breadcrumbs .items{color: #F56105;}
+//.review-control-vote:before{content:@icon-star @icon-star @icon-star @icon-star @icon-star;}
+.panel.wrapper {
+background: tomato;
+@media screen and (max-width: 700px) {
+  position: fixed;
+  width: 100%;
+  z-index: 102;
+ }
+}
